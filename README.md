@@ -22,12 +22,12 @@ type Area struct {
 }
 
 func (Area) TableName() string {
-	 return "lcc_area"
+	 return "xx_area"
 }
 ```
 
 **参数配置--------conf.go**
-
+配置 conf.go 文件参考 conf.go.example 
 ```go 
 package conf
 
@@ -79,7 +79,7 @@ func main() {
 	//初始化数据库
 	dbtools.Init()
 	generate.Genertate() //生成所有表信息
-	//generate.Genertate("lcc_area") //生成指定表信息，可变参数可传入多个表名
+	//generate.Genertate("xx_area") //生成指定表信息，可变参数可传入多个表名
 }
 
 
