@@ -1,7 +1,7 @@
 package conf
 
 //model生成的包名
-const ModelPackageName = "model"
+const ModelPackageName = "models"
 // model保存路径
 const ModelPath = "./"+ModelPackageName+"/"
 // 是否覆盖已存在model

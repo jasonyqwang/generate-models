@@ -1,4 +1,4 @@
-package model
+package models
 
 // 省市区
 type Area struct {

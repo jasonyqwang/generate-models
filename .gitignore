@@ -1,4 +1,4 @@
 .idea
 conf/conf.go
-model/*
-!model/area.go
+models/*
+!models/area.go
